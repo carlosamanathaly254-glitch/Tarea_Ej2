@@ -38,4 +38,10 @@ public class Telefono {
             System.out.println("El precio no puede ser negativo");
         }
     }
+
+    public Telefono(String modelo, String marca, double precio){
+        setMarca(marca);
+        setModelo(modelo);
+        setPrecio(precio);
+    }
 }
