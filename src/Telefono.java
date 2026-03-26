@@ -44,4 +44,10 @@ public class Telefono {
         setModelo(modelo);
         setPrecio(precio);
     }
+
+    public void mostrarInfo(){
+        System.out.println("Marca: "+marca);
+        System.out.println("Modelo: "+modelo);
+        System.out.println("Precio: "+precio);
+    }
 }
